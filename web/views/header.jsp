@@ -19,7 +19,7 @@
     <script>
         function delete_curso(id_to_delete)
         {
-            var confirmation = confirm(int.fromCharCode(191)+'Est\u00E1 seguro de que desea eliminar el curso con id '+ id_to_delete);
+            var confirmation = confirm(String.fromCharCode(191)+'Est\u00E1 seguro de que desea eliminar el curso con id '+ id_to_delete);
 
             if(confirmation)
             {
@@ -31,7 +31,7 @@
         function delete_TemasCurso(id_to_delete) {
             var confirmation = confirm(String.fromCharCode(191)+'Est\u00E1 seguro de que desea eliminar el Tema con el id'+ id_to_delete);
             if (confirmation){
-                window.location= "b_temas_curso.jsp?ID_TEMAS="+ id_to_delete;
+                window.location= "borrar_temas_curso.jsp?id_TEMAS="+ id_to_delete;
             }
         }
     </script>

@@ -45,7 +45,7 @@
                                     + "</td><td>" + temas_cursos.get(a).getNombre_tema()
                                     + "</td><td>" + temas_cursos.get(a).getId_curso()
                                     + "</td><td><a class=\"btn\" href=\"#\"><i class=\"material-icons\">zoom_in</i></a>"
-                                    + "<a class=\"btn blue\" href=\"m_temas_cursos.jsp?ID_TEMAS="+ temas_cursos.get(a).getId_temas()+"\"><i class=\"material-icons\">create</i></a>"
+                                    + "<a class=\"btn blue\" href=\"m_temas_curso.jsp?id_TEMAS="+ temas_cursos.get(a).getId_temas()+"\"><i class=\"material-icons\">create</i></a>"
                                     + "<a class=\"btn red\" onclick=\"delete_TemasCurso('"+ temas_cursos.get(a).getId_temas()+"')\"><i class=\"material-icons\">delete</i></a>"
                                     + "</td></tr>";
                         }
